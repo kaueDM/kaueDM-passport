@@ -19,7 +19,7 @@ const schemaStructure  = {
 
 const _schema = new Schema(schemaStructure);
 
-	_schema.methods.generateHash = function(password){
+	_schema.methods.generateHash = (password) => {
 		return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 	};
 

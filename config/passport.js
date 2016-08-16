@@ -1,7 +1,7 @@
 'use strict';
 const LocalStrategy = require('passport-local').Strategy;
 const Schema = require('../schema');
-const UserModel = require('../model')(Schema, 'Users');
+const UserModel = require('../model')(Schema, 'User', 'Users');
 
 const AccessStrategies = (passport) => {
 
