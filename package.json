@@ -1,0 +1,34 @@
+{
+  "name": "passport-kdm",
+  "version": "0.0.1",
+  "description": "usando passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "D:/Projects/../Repositories/passport-kaueDM/"
+  },
+  "keywords": [
+    "node",
+    "passport"
+  ],
+  "author": "kauê da maia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.5.9",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0"
+  }
+}
