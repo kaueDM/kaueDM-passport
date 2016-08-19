@@ -6,13 +6,11 @@ html
 			h2 Cadastre-se para acessar o painel
 			div.login
 				form(action='/signup', method='post')
-				input(type='email' placeholder='Email' name='email', required, autofocus)
-				input(type='password' placeholder='Senha' name='password', required)
-				button(type='submit') Cadastrar
-
-			div.signup
-				Já possui uma conta? Acesse 
-					a(href='/login') aqui 
+					input(type='email' placeholder='Email' name='email', required, autofocus)
+					input(type='password' placeholder='Senha' name='password', required)
+					button(type='submit') Cadastrar	
+			h4 Já possui uma conta? Acesse 
+				a(href='/login') aqui 
 
 			
 			#message

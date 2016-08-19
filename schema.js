@@ -16,7 +16,6 @@ const schemaStructure  = {
 		}
 		,createdAt : { type: Date, default: Date.now }
 	};
-
 const _schema = new Schema(schemaStructure);
 
 	_schema.methods.generateHash = (password) => {

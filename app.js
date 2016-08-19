@@ -7,7 +7,6 @@ const passport = require('passport');
 const bodyParser = require('body-parser');
 const flash    = require('connect-flash');
 const morgan   = require('morgan');
-
 const db = require('./config/db');
 
 const app = express();
